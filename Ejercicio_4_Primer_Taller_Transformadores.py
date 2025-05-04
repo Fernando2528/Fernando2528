@@ -78,9 +78,9 @@ class TransformerGUI:
         ttk.Label(result_frame, textvariable=self.Rc).grid(row=1, column=1)
         ttk.Label(result_frame, text="Xm (Ω):").grid(row=2, column=0, sticky=tk.W)
         ttk.Label(result_frame, textvariable=self.Xm).grid(row=2, column=1)
-        ttk.Label(result_frame, text="Req_lv (Ω):").grid(row=3, column=0, sticky=tk.W)
+        ttk.Label(result_frame, text="LV-Req_lv (Ω):").grid(row=3, column=0, sticky=tk.W)
         ttk.Label(result_frame, textvariable=self.Req_lv).grid(row=3, column=1)
-        ttk.Label(result_frame, text="Xeq_lv (Ω):").grid(row=4, column=0, sticky=tk.W)
+        ttk.Label(result_frame, text="LV-Xeq_lv (Ω):").grid(row=4, column=0, sticky=tk.W)
         ttk.Label(result_frame, textvariable=self.Xeq_lv).grid(row=4, column=1)
 
         # Área de texto para regulación
